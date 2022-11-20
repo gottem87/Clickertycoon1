@@ -9,7 +9,7 @@ function increase () {
     document.getElementById("clicks").innerHTML = points;
 }
 function clickTime () {
-    setInterval( cpsPoints, () => {
+    setInterval( increase, () => {
 	points += cps;
     document.getElementById("clicks").innerHTML = points;
 }, 1000);
